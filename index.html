@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Quiz App</title>
+</head>
+<body>
+<header>
+    <h1>The Vegan Quiz</h1>
+</header>
+    <form class="questions" action="/answers/" method="post">
+        <fieldset>
+            <legend><span>Which sauce is not vegan?</span></legend>
+                <div class = questions>
+                    <input type="radio" name="answers" id="answerOne"/>
+                        <label for="option1">Tabasco</label> 
+                </div>
+                <div class = questions>
+                    <input type="radio" name="answers" id="answerTwo"/>
+                        <label for="option2">Sriracha</label>
+                </div>
+                <div class = questions>
+                    <input type="radio" name="answers" id="answerThree"/>
+                        <label for="option3">Ketchup</label>
+                </div>
+                <div class = "questions" id="question 4">
+                    <input type="radio" name="answers" id="answerFour"/>
+                        <label for="option4">Soy Sauce</label>
+                </div>
+                <div class="submit button">
+                    <button type="submit" class="submit">Submit</button>
+                </div>  
+        </fieldset>
+      </form>
+      <main>
+          <fieldset>
+                <legend>What do you know about Veganism??</legend>
+                <p>Welcome! This quiz is to test your knowledge on some vegan facts.</p>
+                <button type="button" id="start">Begin Quiz</button>
+          </fieldset>
+      </main>
+</body>
+</html>
