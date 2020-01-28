@@ -11,6 +11,8 @@
 <header>
     <h1>The Vegan Quiz</h1>
 </header>
+<h2>Question: 1 out of 10 
+    Score: 1 correct and 0 incorrect</h2>
     <form class="questions" action="/answers/" method="post">
         <fieldset>
             <legend><span>Which sauce is not vegan?</span></legend>
@@ -30,6 +32,10 @@
                     <input type="radio" name="answers" id="answerFour"/>
                         <label for="option4">Soy Sauce</label>
                 </div>
+                <div class="correct">You are correct! Sriracha contains sugar that has been filtered by bone char.</div>
+                <div class="incorrect">
+                    Sorry that is the incorrect answer. The correct answer is Sriracha. Siracha contains sugar processed with bone char!
+                </div>
                 <div class="submit button">
                     <button type="submit" class="submit">Submit</button>
                 </div>  
@@ -41,6 +47,11 @@
                 <p>Welcome! This quiz is to test your knowledge on some vegan facts.</p>
                 <button type="button" id="start">Begin Quiz</button>
           </fieldset>
+          <fieldset>
+            <legend>Results!</legend>
+            <p>Thank you for taking this quiz. You scored 1 out of 10. </p>
+            <button type="button" id="start">Restart Quiz</button>
+      </fieldset>
       </main>
 </body>
 </html>
